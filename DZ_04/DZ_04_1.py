@@ -6,8 +6,6 @@ mat = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [0, 0, 0]]
 def transpositions (matrix: list) -> list:
     matrix_trans = []
     res = []
-    i1 = len(matrix)
-    j1 = len(matrix[0])
     for i in range(len(matrix[0])):
         for j in range(len(matrix)):
             res.append(matrix[j][i])
