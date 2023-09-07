@@ -9,8 +9,8 @@ number_duble = []
 #         if list_duble.count(i) == 0:
 #             list_duble.append(i)
 for i in number:
-    if i not in number_duble:
+    if i not in number_duble and number.count(i) > 1:
         number_duble.append(i)
 print(number_duble)
 
-# 1, 9, 8, 3, 2, 5, 0
+# 1, 8, 3, 0
