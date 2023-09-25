@@ -35,7 +35,6 @@ def dir_list (dirs: str):
     for i in lst:
         if not i.count('.'):
             dir_name = dirs.split(os.path.sep)
-            print()
             d = dir_name[-1]
             print(f'{d} -> {i}')
             rout = os.path.join(os.getcwd(), dirs, i)
